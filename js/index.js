@@ -1,6 +1,6 @@
 let formulario = document.querySelector('form')
 
-formulario.addEventListener('submit')
+formulario.addEventListener('submit',enviarFormulario)
 
 function enviarFormulario(elementForm){
     elementForm.preventDefault();
